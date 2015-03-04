@@ -1,0 +1,6 @@
+c:\users\arma\documents\visual studio 2012\Projects\BitCalculator\BitCalculator\bin\Debug\BitCalculator.exe.config
+c:\users\arma\documents\visual studio 2012\Projects\BitCalculator\BitCalculator\obj\Debug\BitCalculator.csprojResolveAssemblyReference.cache
+c:\users\arma\documents\visual studio 2012\Projects\BitCalculator\BitCalculator\bin\Debug\BitCalculator.exe
+c:\users\arma\documents\visual studio 2012\Projects\BitCalculator\BitCalculator\bin\Debug\BitCalculator.pdb
+c:\users\arma\documents\visual studio 2012\Projects\BitCalculator\BitCalculator\obj\Debug\BitCalculator.exe
+c:\users\arma\documents\visual studio 2012\Projects\BitCalculator\BitCalculator\obj\Debug\BitCalculator.pdb
