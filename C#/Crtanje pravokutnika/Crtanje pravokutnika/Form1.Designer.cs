@@ -38,18 +38,18 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.crtanjePravokutnika.Location = new System.Drawing.Point(12, 12);
             this.crtanjePravokutnika.Name = "crtanjePravokutnika";
-            this.crtanjePravokutnika.Size = new System.Drawing.Size(760, 538);
+            this.crtanjePravokutnika.Size = new System.Drawing.Size(600, 418);
             this.crtanjePravokutnika.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 562);
+            this.ClientSize = new System.Drawing.Size(624, 442);
             this.Controls.Add(this.crtanjePravokutnika);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Crtač pravokutnika";
+            this.Text = "Crtač pravokutnika - Armin Bodružić";
             this.ResumeLayout(false);
 
         }

@@ -9,18 +9,24 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-// Nisam znao kako rijesiti da se tijekom iscrtavanja pravokutnici u kontroli ne trepere.
+// Nisam znao kako rijesiti da se tijekom iscrtavanja pravokutnici u kontroli ne trepere
 namespace Crtanje_pravokutnika
 {
     public partial class CrtanjePravokutnika : UserControl
     {
+        // Provjera da li sam u fazi crtanja
         bool draw = false;
-        Point start = new Point();
-        Point current = new Point();
-        Rectangle rect;
+
+        // Pointi za dohvacanje start pozicije i pozicije tijekom micanja misa
+        Point startPosition = new Point();
+        Point currentPosition = new Point();
+
+        // Crvena i crna boja za iscrtavanje kvadrata
         Pen drawPen = new Pen(Brushes.Red, 1);
         Pen listPen = new Pen(Brushes.Black, 1);
-        List<Rectangle> rectangles = new List<Rectangle>();
+
+        // Lista kvadrata radi ponovnog iscrtavanja
+        static List<Rectangle> rectangles = new List<Rectangle>();
 
         public CrtanjePravokutnika()
         {
@@ -30,26 +36,22 @@ namespace Crtanje_pravokutnika
 
         private void pnlCrtanje_MouseDown(object sender, MouseEventArgs e)
         {
-            start = current = e.Location;
+            startPosition = currentPosition = e.Location;
             draw = true;
         }
 
         private void pnlCrtanje_MouseMove(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Left)
+            if (e.Button == MouseButtons.Left && draw)
             {
-                current = e.Location;
-
-                if (draw)
-                {
-                    pnlCrtanje.Refresh();
-                }
+                currentPosition = e.Location;
+                pnlCrtanje.Refresh();
             }
         }
 
         private Rectangle GetNewRectangle()
         {
-            return new Rectangle(start.X, start.Y, current.X - start.X, current.Y - start.Y);
+            return new Rectangle(startPosition.X, startPosition.Y, currentPosition.X - startPosition.X, currentPosition.Y - startPosition.Y);
         }
 
         private void pnlCrtanje_Paint(object sender, PaintEventArgs e)
@@ -70,11 +72,12 @@ namespace Crtanje_pravokutnika
             if (draw)
             {
                 draw = false;
-                rect = GetNewRectangle();
+                Rectangle r = GetNewRectangle();
 
-                if (rect.Width > 0 && rect.Height > 0)
+                //Samo provjera da li kvadrat ima pozitivnu velicinu da ga ne spremamo bezveze u listu
+                if (r.Width > 0 && r.Height > 0)
                 {
-                    rectangles.Add(rect);
+                    rectangles.Add(r);
                 }
 
                 pnlCrtanje.Invalidate();
