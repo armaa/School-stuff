@@ -1,0 +1,10 @@
+C:\Users\arma\Desktop\Crtanje pravokutnika\Crtanje pravokutnika\Crtanje pravokutnika\bin\Debug\Crtanje pravokutnika.exe.config
+C:\Users\arma\Desktop\Crtanje pravokutnika\Crtanje pravokutnika\Crtanje pravokutnika\bin\Debug\Crtanje pravokutnika.exe
+C:\Users\arma\Desktop\Crtanje pravokutnika\Crtanje pravokutnika\Crtanje pravokutnika\bin\Debug\Crtanje pravokutnika.pdb
+C:\Users\arma\Desktop\Crtanje pravokutnika\Crtanje pravokutnika\Crtanje pravokutnika\obj\Debug\Crtanje pravokutnika.csprojResolveAssemblyReference.cache
+C:\Users\arma\Desktop\Crtanje pravokutnika\Crtanje pravokutnika\Crtanje pravokutnika\obj\Debug\Crtanje_pravokutnika.CrtanjePravokutnika.resources
+C:\Users\arma\Desktop\Crtanje pravokutnika\Crtanje pravokutnika\Crtanje pravokutnika\obj\Debug\Crtanje_pravokutnika.Form1.resources
+C:\Users\arma\Desktop\Crtanje pravokutnika\Crtanje pravokutnika\Crtanje pravokutnika\obj\Debug\Crtanje_pravokutnika.Properties.Resources.resources
+C:\Users\arma\Desktop\Crtanje pravokutnika\Crtanje pravokutnika\Crtanje pravokutnika\obj\Debug\Crtanje pravokutnika.csproj.GenerateResource.Cache
+C:\Users\arma\Desktop\Crtanje pravokutnika\Crtanje pravokutnika\Crtanje pravokutnika\obj\Debug\Crtanje pravokutnika.exe
+C:\Users\arma\Desktop\Crtanje pravokutnika\Crtanje pravokutnika\Crtanje pravokutnika\obj\Debug\Crtanje pravokutnika.pdb
