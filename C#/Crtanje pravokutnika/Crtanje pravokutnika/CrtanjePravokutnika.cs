@@ -18,8 +18,8 @@ namespace Crtanje_pravokutnika
         Point start = new Point();
         Point current = new Point();
         Rectangle rect;
-        public Pen drawPen = new Pen(Brushes.Red, 1);
-        public Pen listPen = new Pen(Brushes.Black, 1);
+        Pen drawPen = new Pen(Brushes.Red, 1);
+        Pen listPen = new Pen(Brushes.Black, 1);
         List<Rectangle> rectangles = new List<Rectangle>();
 
         public CrtanjePravokutnika()
