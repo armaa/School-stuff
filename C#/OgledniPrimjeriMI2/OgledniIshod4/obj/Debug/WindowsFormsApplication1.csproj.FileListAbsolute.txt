@@ -1,0 +1,10 @@
+c:\users\arma\documents\visual studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+c:\users\arma\documents\visual studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Sat.resources
+c:\users\arma\documents\visual studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\arma\documents\visual studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication1\bin\Debug\OgledniIshod4.exe.config
+c:\users\arma\documents\visual studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication1\bin\Debug\OgledniIshod4.exe
+c:\users\arma\documents\visual studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication1\bin\Debug\OgledniIshod4.pdb
+c:\users\arma\documents\visual studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\Debug\OgledniIshod4.Properties.Resources.resources
+c:\users\arma\documents\visual studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\Debug\OgledniIshod4.exe
+c:\users\arma\documents\visual studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\Debug\OgledniIshod4.pdb
+C:\Users\arma\Documents\Visual Studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication1\bin\Debug\OgledniIshod411.exe.config
